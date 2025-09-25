@@ -17,7 +17,7 @@ public class PatientService {
         this.patientRepository = patientRepository;
     }
 
-    public List<PatientResponseDTO> getPatients(Patient patient){
+    public List<PatientResponseDTO> getPatients(){
         List<Patient> patients = patientRepository.findAll();
 
         return patients.stream()
