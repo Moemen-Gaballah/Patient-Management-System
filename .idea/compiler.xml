@@ -8,11 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="patient-service" />
+        <module name="billing-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="billing-service" target="17" />
-      <module name="patient-management" target="24" />
+      <module name="patient-management" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
