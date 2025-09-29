@@ -25,4 +25,8 @@ public class User {
     @Column(nullable = false)
     private String role;
 
+    public String getEmail() { return email; }
+    public String getPassword() { return password; }
+    public String getRole() { return role; }
+
 }
